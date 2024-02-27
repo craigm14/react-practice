@@ -4,7 +4,9 @@ import Card from "./conponents/Card";
 import Footer from "./conponents/Footer";
 import Student from "./conponents/Student";
 import Header from "./conponents/Header";
-
+import UserMessage from "./conponents/UserMessage";
+//Change true / false to test elements
+//test login with true/false loggedIn and username presnt and not presnt
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
       <Student name="Craig" age={30} isStudent={true} />
       <Student name="Bart" age={15} isStudent={true} />
       <Student isStudent={false} />
+      <UserMessage isLoggedIn={true}  />
       <Footer />
     </>
   );
