@@ -6,6 +6,7 @@ import Student from "./conponents/Student";
 import Header from "./conponents/Header";
 import UserMessage from "./conponents/UserMessage";
 import List from "./conponents/Lists";
+import Count from "./conponents/Count";
 //Change true / false to test elements
 //test login with true/false loggedIn and username presnt and not presnt
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Student name="Bart" age={15} isStudent={true} />
       <Student isStudent={false} />
       <UserMessage isLoggedIn={true}  />
+      <Count/>
       <Footer />
     </>
   );
