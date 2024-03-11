@@ -10,7 +10,8 @@ import Count from "./conponents/Count";
 import User from "./conponents/User";
 import ColorPicker from "./conponents/colorPicker";
 import Counter from "./conponents/Counter";
-
+import Page from "./conponents/Page";
+import MyArray from "./conponents/MyArray";
 
 //Change true / false to test elements
 //test login with true/false loggedIn and username presnt and not presnt
@@ -36,6 +37,10 @@ function App() {
       <br></br>
       <User/>
       <ColorPicker/>
+      <hr></hr>
+      <Page/>
+      <hr></hr>
+      <MyArray/>
       <Footer />
     </>
   );
